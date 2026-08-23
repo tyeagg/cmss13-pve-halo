@@ -23,6 +23,7 @@
 	var/armor_status = 100
 
 /obj/item/clothing/suit/marine/unsc/mjolnir/examine(mob/user)
+	. = ..()
 	to_chat(user, SPAN_NOTICE("It has [armor_status] armor integrity."))
 
 /obj/item/clothing/suit/marine/unsc/mjolnir/proc/armor_check()
