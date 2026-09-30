@@ -84,3 +84,20 @@
 	var/obj/vehicle/multitile/vehicle_user = user.mob.interactee
 	vehicle_user.reload_firing_port_weapon()
 	return TRUE
+
+/datum/keybinding/vehicles/ghost_strafe
+	hotkey_keys = list("Unbound")
+	classic_keys = list("Unbound")
+	name = "strafe"
+	full_name = "Strafe Ghost"
+	description = "Select an order to issue."
+	keybind_signal = COMSIG_KB_VEHICLE_GHOST_STRAFE
+	var/vehicle
+
+/datum/keybinding/vehicles/ghost_strafe/down(client/user)
+	. = ..()
+	if(.)
+		return
+	var/obj/vehicle/multitile/vehicle_user = user.mob.interactee
+	vehicle_user.toggle_strafe()
+	return TRUE

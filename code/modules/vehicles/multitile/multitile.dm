@@ -56,6 +56,8 @@
 	// When the vehicle has 0 momentum, it's movement delay will be move_delay * momentum_build_factor
 	// The movement delay gradually reduces up to move_delay when momentum increases
 	var/move_momentum_build_factor = 1.3
+	///Wether we are strafing
+	var/strafe = FALSE
 
 	//Sound to play when moving
 	var/movement_sound

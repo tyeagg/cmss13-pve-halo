@@ -315,3 +315,18 @@
 		return
 	else
 		cell_explosion(target, explosion_strength, explosion_falloff, EXPLOSION_FALLOFF_SHAPE_LINEAR, null, cause_data)
+
+/datum/action/strafe
+	name = "Toggle Strafing. Disabled when Alt is held."
+	action_icon_state = "strafe"
+	var/obj/vehicle/multitile/vehicle
+
+/datum/action/strafe/action_activate(trigger_flags)
+	if(!vehicle)
+		return
+	vehicle.toggle_strafe()
+
+///Toggles strafemode on or off
+/obj/vehicle/multitile/proc/toggle_strafe()
+	strafe = !strafe
+	balloon_alert(buckled_mob, "Strafing mode [strafe?"on":"off"].")
