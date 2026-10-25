@@ -298,7 +298,7 @@
 	name = "\improper UNSC storage crate  (Flares x 14)"
 	desc = "A generic storage crate for the UNSC holding flares."
 	icon_state = "base_flare"
-	magazine_type = /obj/item/storage/box/flare
+	magazine_type = /obj/item/storage/box/flare/unsc
 	num_of_magazines = 14
 	overlay_content = "_flare"
 
@@ -309,11 +309,19 @@
 	name = "\improper UNSC storage crate - (Signal Flares x 14)"
 	desc = "A generic storage crate for the UNSC holding signal flares."
 	icon_state = "base_flare"
-	magazine_type = /obj/item/storage/box/flare/signal
+	magazine_type = /obj/item/storage/box/flare/signal/unsc
 	num_of_magazines = 14
 	overlay_content = "_signal"
 
 /obj/item/ammo_box/magazine/misc/unsc/flare/signal/empty
+	empty = TRUE
+
+/obj/item/ammo_box/magazine/misc/unsc/flare/chemlight
+	name = "\improper UNSC storage crate  (Chemlight Packs x 14)"
+	desc = "A generic storage crate for the UNSC holding packs of chemical illumination sticks."
+	magazine_type = /obj/item/storage/box/flare/chemlight
+
+/obj/item/ammo_box/magazine/misc/unsc/flare/chemlight/empty
 	empty = TRUE
 
 /obj/item/ammo_box/magazine/misc/unsc/grenade
@@ -345,6 +353,14 @@
 	magazine_type = /obj/item/explosive/grenade/high_explosive/pmc/unsc
 	num_of_magazines = 9
 	overlay_content = "_defgre"
+
+/obj/item/ammo_box/magazine/misc/unsc/grenade/thermite
+	name = "\improper UNSC storage crate - (Thermite Grenades x 9)"
+	desc = "A generic storage crate for the UNSC holding thermite grenades."
+	icon_state = "base_thermite"
+	magazine_type = /obj/item/explosive/grenade/incendiary/unsc
+	num_of_magazines = 9
+	overlay_content = "_thermite"
 
 /obj/item/ammo_box/magazine/misc/unsc/grenade/blast/empty
 	empty = TRUE
@@ -379,4 +395,48 @@
 	overlay_content = "_riflepack"
 
 /obj/item/ammo_box/magazine/misc/unsc/m7_ammo/empty
+	empty = TRUE
+
+/obj/item/ammo_box/magazine/misc/unsc/ma5_ammo_packet
+	name = "UNSC storage crate - (M118 (7.62x51mm) Ammunition Packets x 16)"
+	desc = "A generic UNSC storage crate for holding ammunition packets to refill MA5 series rifle magazines."
+	magazine_type = /obj/item/ammo_box/rounds/unsc/ma5
+	num_of_magazines = 16
+	icon_state = "base_40mm"
+	overlay_content = "_riflepack"
+
+/obj/item/ammo_box/magazine/misc/unsc/ma5_ammo_packet/empty
+	empty = TRUE
+
+/obj/item/ammo_box/magazine/misc/unsc/m7_ammo_packet
+	name = "UNSC storage crate - (M443 (5x23mm) Ammunition Packets x 16)"
+	desc = "A generic UNSC storage crate for holding ammunition packets to refill M7 SMG magazines."
+	magazine_type = /obj/item/ammo_box/rounds/unsc/m7
+	num_of_magazines = 16
+	icon_state = "base_40mm"
+	overlay_content = "_riflepack"
+
+/obj/item/ammo_box/magazine/misc/unsc/m7_ammo_packet/empty
+	empty = TRUE
+
+/obj/item/ammo_box/magazine/misc/unsc/m6_ammo_packet
+	name = "UNSC storage crate - (M225 (12.7x40mm) Ammunition Packets x 16)"
+	desc = "A generic UNSC storage crate for holding ammunition packets to refill M6 series handgun magazines."
+	magazine_type = /obj/item/ammo_box/rounds/unsc/m6
+	num_of_magazines = 16
+	icon_state = "base_40mm"
+	overlay_content = "_pistolpack"
+
+/obj/item/ammo_box/magazine/misc/unsc/m6_ammo_packet/empty
+	empty = TRUE
+
+/obj/item/ammo_box/magazine/misc/unsc/br55_ammo_packet
+	name = "UNSC storage crate - (M634 (9.5x40mm) Ammunition Packets x 16)"
+	desc = "A generic UNSC storage crate for holding ammunition packets to refill BR55 battle rifle magazines."
+	magazine_type = /obj/item/ammo_box/rounds/unsc/br55
+	num_of_magazines = 16
+	icon_state = "base_40mm"
+	overlay_content = "_pistolpack"
+
+/obj/item/ammo_box/magazine/misc/unsc/br55_ammo_packet/empty
 	empty = TRUE
