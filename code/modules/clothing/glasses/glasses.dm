@@ -734,6 +734,7 @@
 	item_state = "securityhud"
 	eye_protection = EYE_PROTECTION_FLASH
 
+
 /obj/item/clothing/glasses/sunglasses/sechud/tactical
 	name = "tactical SWAT HUD"
 	gender = NEUTER
