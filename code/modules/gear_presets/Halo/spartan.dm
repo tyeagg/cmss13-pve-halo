@@ -53,7 +53,7 @@
 
 /datum/equipment_preset/unsc/spartan/equipped/load_gear(mob/living/carbon/human/new_human)
 	//clothing
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/spartan(new_human), WEAR_BODY)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/unsc/spartan(new_human), WEAR_BODY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/marine/unsc/mjolnir(new_human), WEAR_HEAD)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/marine/unsc/mjolnir(new_human), WEAR_JACKET)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/marine/spartan(new_human), WEAR_HANDS)
@@ -96,7 +96,7 @@
 
 /datum/equipment_preset/unsc/spartan/sniper/load_gear(mob/living/carbon/human/new_human)
 	//clothing
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/spartan(new_human), WEAR_BODY)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/unsc/spartan(new_human), WEAR_BODY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/marine/unsc/mjolnir(new_human), WEAR_HEAD)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/marine/unsc/mjolnir(new_human), WEAR_JACKET)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/marine/spartan(new_human), WEAR_HANDS)
@@ -134,7 +134,7 @@
 
 /datum/equipment_preset/unsc/spartan/spnkr/load_gear(mob/living/carbon/human/new_human)
 	//clothing
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/spartan(new_human), WEAR_BODY)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/unsc/spartan(new_human), WEAR_BODY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/marine/unsc/mjolnir(new_human), WEAR_HEAD)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/marine/unsc/mjolnir(new_human), WEAR_JACKET)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/marine/spartan(new_human), WEAR_HANDS)
@@ -171,7 +171,7 @@
 
 /datum/equipment_preset/unsc/spartan/cqc/load_gear(mob/living/carbon/human/new_human)
 	//clothing
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/spartan(new_human), WEAR_BODY)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/unsc/spartan(new_human), WEAR_BODY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/marine/unsc/mjolnir(new_human), WEAR_HEAD)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/marine/unsc/mjolnir(new_human), WEAR_JACKET)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/marine/spartan(new_human), WEAR_HANDS)
